@@ -40,10 +40,6 @@ body {
   margin-right: auto;
 }
 
-/* .header__navigation-menu {
-  margin-left: auto;
-} */
-
 /******************************/
 
 .navigation-menu__list {
@@ -189,10 +185,10 @@ body {
 }
 
 .section-slider__buttons {
+  display: flex;
   padding-top: 12px;
   padding-bottom: 14px;
-  text-align: center;
-  font-size: 0;
+  justify-content: center;
 }
 
 .slider-button {
