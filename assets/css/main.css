@@ -222,13 +222,13 @@ body {
 }
 
 .section-services__content-container {
+  display: flex;
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .service-box {
-  float: left;
   width: 220px;
 }
 
