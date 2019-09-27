@@ -338,9 +338,15 @@ body {
   margin-right: auto;
 }
 
+/******************************/
+
+.headline-wrap {
+  display: flex;
+}
+
 .section-works__title {
-  float: left;
   position: relative;
+  margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
   padding: 3px 0 2px 40px;
@@ -365,8 +371,7 @@ body {
 }
 
 .section-works__buttons {
-  float: right;
-  font-size: 0;
+  display: flex;
   padding: 2px 0;
 }
 
@@ -395,7 +400,10 @@ body {
   transform: rotate(180deg);
 }
 
+/******************************/
+
 .section-works__instances {
+  display: flex;
   margin-top: 15px;
   padding-top: 19px;
   padding-bottom: 39px;
@@ -404,7 +412,6 @@ body {
 }
 
 .instance-box {
-  float:left;
   position: relative;
 }
 
@@ -467,25 +474,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-
-/* For practice purpose*/
-/* .instance-box::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 220px;
-  height: 0;
-  background-color: #2aacc8;
-  background-image: url(../images/eye_icon.png), url(../images/link_icon.png);
-  background-repeat: no-repeat, no-repeat;
-  background-position: 65px, 135px;
-  transition: 0.5s;
-}
-
-.instance-box:hover::before {
-  height: 80px;
-} */
 
 .instance-box__img {
   display: block;
