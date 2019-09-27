@@ -489,19 +489,18 @@ body {
 }
 
 .section-recommendation__content-container {
+  display: flex;
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .section-recommendation__testimonials {
-  float: left;
-  width: 430px;
-  margin-right: 90px;
+  width: 440px;
+  margin-right: 80px;
 }
 
 .section-recommendation__clients {
-  float: right;
   width: 480px;
 }
 
@@ -554,19 +553,22 @@ body {
 }
 
 .clients-container {
+  display: flex;
   width: 480px;
   margin-top: 20px;
-  font-size: 0;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .clients-logo {
-  display: inline-block;
   position: relative;
   width: 158px;
   height: 99px;
   border: 1px solid #e8ebf1;
   background-color: #ffffff;
   box-shadow: inset 0px 0px 25px 0px rgba(232, 235, 241, 0.4);
+  text-decoration: none;
+  color: transparent;
 }
 
 .clients-logo:nth-child(-n+2),
