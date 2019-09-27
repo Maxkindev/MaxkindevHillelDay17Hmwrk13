@@ -598,6 +598,7 @@ body {
 }
 
 .section-bottom__content-container {
+  display: flex;
   width: 998px;
   margin-left: auto;
   margin-right: auto;
@@ -609,14 +610,13 @@ body {
 }
 
 .section-bottom__description {
-  float: left;
-  width: 607px;
+  width: 640px;
 }
 
 .section-bottom__button {
-  float: right;
+  margin-left: auto;
   margin-right: 40px;
-  padding-top: 5px;
+  align-self: center;
 }
 
 .description-text {
