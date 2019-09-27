@@ -3,12 +3,6 @@ body {
   min-width: 1030px;
 }
 
-.clearfix::after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
 .text--bold {
   font-weight: 700;
 }
@@ -96,6 +90,7 @@ body {
   background-color: #ffffff;
   color: #2aacc8;
 }
+
 /******************************/
 
 .menu-item__dropdown-list {
@@ -237,6 +232,7 @@ body {
 }
 
 /******************************/
+
 .service-box__title {
   position: relative;
   margin-top: 0;
@@ -284,6 +280,7 @@ body {
   background-repeat: no-repeat;
   background-position: 60% 60%;
 }
+
 /******************************/
 
 .service-box__text {
@@ -684,30 +681,31 @@ body {
   margin-right: auto;
 }
 
+.footer__subsections-flex-container {
+  display: flex;
+  align-items: flex-start;
+}
+
 .footer__subsection-about {
-  float: left;
   width: 240px;
   margin-right: 60px;
 }
 
 .footer__subsection-explore {
-  float: left;
   margin-right: 70px;
 }
 
 .footer__subsection-browse {
-  float: left;
   margin-right: 60px;
 }
 
 .footer__subsection-contact {
-  float: left;
   width: 136px;
 }
 
 .footer__subsection-connect {
-  float: right;
   width: 193px;
+  margin-left: auto;
 }
 
 .footer__subsection-title {
@@ -751,13 +749,14 @@ body {
 }
 
 /******************************/
+
 .social-networks-wrap {
+  display: flex;
   padding-top: 6px;
-  font-size: 0;
+  flex-wrap: wrap;
 }
 
 .social-network-link {
-  display: inline-block;
   width: 53px;
   text-decoration: none;
 }
@@ -774,12 +773,14 @@ body {
   display: block;
 }
 
+/******************************/
+
 .footer-bottom-part {
+  display: flex;
   padding-top: 25px;
 }
 
 .footer-bottom-text {
-  float: left;
   width: 641px;
   margin-top: 0;
   margin-bottom: 0;
@@ -792,5 +793,5 @@ body {
 }
 
 .footer-logo {
-  float: right;
+  margin-left: auto;
 }
