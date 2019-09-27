@@ -28,6 +28,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   justify-content: flex-end;
+  align-items: flex-start;
 }
 
 .header__logo {
