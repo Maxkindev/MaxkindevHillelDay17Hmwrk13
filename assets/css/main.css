@@ -75,6 +75,9 @@ body {
 .menu-item__block--portfolio {
   padding-left: 15px;
   text-align: left;
+}
+
+.menu-item__block--services {
   cursor: default;
 }
 
