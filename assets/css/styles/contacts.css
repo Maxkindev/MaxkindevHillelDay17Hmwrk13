@@ -1,0 +1,50 @@
+/******************************/
+/* Additional style to HEADER */
+/******************************/
+.contacts--border{
+  border-top: 5px solid #2aacc8;
+}
+
+/******************************/
+/* CONTACT US SECTION */
+/******************************/
+
+.contacts {
+  padding: 40px 15px;
+  background-color: #ffffff;
+}
+
+.contacts__content-container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/******************************/
+
+.contacts__title {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-left: 42px;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.contacts__title::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 17px;
+  background-image: url(../../images/contacts-images/email_icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/******************************/
