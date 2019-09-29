@@ -50,7 +50,7 @@
               <a href="#" class="menu-item__link">Blog</a>
             </li>
             <li class="navigation-menu__item">
-              <a href="#" class="menu-item__link">Contact Us</a>
+              <a href="#" class="menu-item__link contacts--border">Contact Us</a>
             </li>
           </ul>
         </nav>
@@ -60,6 +60,52 @@
     <section class="contacts">
       <div class="contacts__content-container">
         <h2 class="contacts__title">Contact Us</h2>
+        <div class="contacts__flex-wrapper">
+          <!--  --  --  -->
+          <div class="contacts__text-n-form">
+            <p class="contacts__text">
+              Thank you for stopping by. Please use the form below to contact us and will get back to you 
+              at the earliest possible
+            </p>
+            <p class="contacts__text">
+              For feedback or questions, please email us at: <a href="mailto:email@bislite.com" class="contacts__form-link">email@bislite.com</a>
+            </p>
+            <!--  -->
+            <form class="contacts__form" action="https://mcslayer.com/hillel/post.php" method="POST">
+              <fieldset class="contacts__form-fieldset">
+                <input type="text" name="contact-name" size="35" maxlength="35" required>
+                <input type="email" name="contact-email" size="35" maxlength="35" required  autofocus>
+                <input type="text" name="contact-subject" size="35" maxlength="35" required>
+                <div>
+                    <textarea name="contact-message" rows=8 cols="40"></textarea>
+                </div>
+                <input type="button" value="submit">
+              </fieldset>
+            </form>
+          </div>
+          <!--  --  --  -->
+          <div class="contacts__map-n-address">
+            <div class="contacts__map">
+              <h3 class="contacts__map-title">We are here</h3>
+              <a href="#" class="contacts__map-link">
+                <img src="../images/contacts-images/map.png" alt="map" class="contacts__map-img">
+              </a>
+            </div>
+            <!---->
+            <div class="contacts__address">
+              <h2 class="contacts__address-title">Office Address</h2>
+              <p class="contacts__address-text">
+                <span class="span--block text--bold">BisLite Inc.</span>
+                <span class="span--block">Always Street 265</span>
+                <span class="span--block">0X - 125 - Canada</span>
+              </p>
+              <p class="contacts__address-text">
+                <span class="span--block">Phone: 987-6543-210</span>
+                <span class="span--block">Fax: 987-6543-210</span>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <!---->
